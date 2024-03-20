@@ -7,6 +7,8 @@ services:
       - "80:80"
   redis:
     image: redis:7.2-alpine
+  app:
+    image: ealen/echo-server:0.9.2
   keycloak:
     build: ./keycloak
     ports:
