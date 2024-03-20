@@ -1,0 +1,27 @@
+{
+  "realm" : "bluextx-app",
+  "users" : [ {
+    "id" : "5e60137d-6dcf-45d8-a231-826ead7cab81",
+    "username" : "bluextx",
+    "firstName" : "Mikhail",
+    "lastName" : "Krushelnitskiy",
+    "email" : "bluextchannel@gmail.com",
+    "emailVerified" : true,
+    "createdTimestamp" : 1710971119556,
+    "enabled" : true,
+    "totp" : false,
+    "credentials" : [ {
+      "id" : "2a45a50e-427b-4cd1-9743-6c7b2062560b",
+      "type" : "password",
+      "userLabel" : "My password",
+      "createdDate" : 1710971129424,
+      "secretData" : "{\"value\":\"bkRHq8mmVA5RmdTns84I+FWZzPxzIocLflBKYoV6RKNIboZPguhn3MFnvuZlFd3ZDUMFnUb9LXCisXMGsuILOQ==\",\"salt\":\"gvZFHaQ5ZbW5plX5C7pfKA==\",\"additionalParameters\":{}}",
+      "credentialData" : "{\"hashIterations\":210000,\"algorithm\":\"pbkdf2-sha512\",\"additionalParameters\":{}}"
+    } ],
+    "disableableCredentialTypes" : [ ],
+    "requiredActions" : [ ],
+    "realmRoles" : [ "default-roles-bluextx-app" ],
+    "notBefore" : 0,
+    "groups" : [ ]
+  } ]
+}

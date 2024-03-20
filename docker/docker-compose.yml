@@ -1,0 +1,9 @@
+version: '3.8'
+
+services:
+  keycloak:
+    build: ./keycloak
+    ports:
+      - "8080:8080"
+    environment:
+      PROXY_ADDRESS_FORWARDING: "true"
