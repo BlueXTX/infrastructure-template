@@ -1,6 +1,12 @@
 version: '3.8'
 
 services:
+  nginx:
+    build: ./nginx
+    ports:
+      - "80:80"
+  redis:
+    image: redis:7.2-alpine
   keycloak:
     build: ./keycloak
     ports:
