@@ -1,0 +1,26 @@
+{
+  "realm" : "master",
+  "users" : [ {
+    "id" : "305b3a38-22ca-4bba-b81c-e7af7ba6249b",
+    "username" : "admin",
+    "emailVerified" : false,
+    "createdTimestamp" : 1710970485190,
+    "enabled" : true,
+    "totp" : false,
+    "credentials" : [ {
+      "id" : "b69905a2-d4d3-45ef-9c4e-125475fc293d",
+      "type" : "password",
+      "createdDate" : 1710970485627,
+      "secretData" : "{\"value\":\"CH1wxAjlSNcHrGjdBw7iJhKqu8KtKnKaE9394joYMuW1iCLN77k+qzWVHzfmxqvuhHKZ/droCSjzg72PMv3wqA==\",\"salt\":\"yr9xQAE/LlVZNi9TMNCkfA==\",\"additionalParameters\":{}}",
+      "credentialData" : "{\"hashIterations\":210000,\"algorithm\":\"pbkdf2-sha512\",\"additionalParameters\":{}}"
+    } ],
+    "disableableCredentialTypes" : [ ],
+    "requiredActions" : [ ],
+    "realmRoles" : [ "default-roles-master", "admin" ],
+    "clientRoles" : {
+      "bluextx-app-realm" : [ "query-clients", "manage-realm", "manage-clients", "manage-events", "create-client", "query-groups", "view-users", "manage-authorization", "view-realm", "view-events", "query-realms", "view-clients", "query-users", "view-authorization", "view-identity-providers", "manage-users", "manage-identity-providers" ]
+    },
+    "notBefore" : 0,
+    "groups" : [ ]
+  } ]
+}
